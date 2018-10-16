@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    background-color: #151515;
+}
+.google-effect{
+    list-style: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .google-effect li{
+      display: inline-block;
+  }
+  /*letter 1 */
+  .google-effect li:nth-child(1){
+    font-size: 20vh;
+    color:rgba(225,255,255,.1);
+    background: url(../img/wave.png);
+    -webkit-background-clip: text;
+    background-position: 50px 40px;
+    animation: animate 15s linear infinite;
+  }
+  /* letter 2 */
+  .google-effect li:nth-child(2){
+    font-size: 20vh;
+    color:rgba(225,255,255,.1);
+    background: url(../img/wave2.png);
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+  }
+  /* Letter 3 */
+  .google-effect li:nth-child(3){
+    font-size: 20vh;
+    color:rgba(225,255,255,.1);
+    background: url(../img/wave3.png);
+    -webkit-background-clip: text;
+    animation: animate 15s linear infinite;
+  }
+  /* Letter 4 */
+  .google-effect li:nth-child(4){
+    font-size: 20vh;
+    color:rgba(225,255,255,.1);
+    background: url(../img/wave4.png);
+    -webkit-background-clip: text;
+    background-position: 20px 80px;
+    animation: animate 15s linear infinite;
+  }
+  /* letter 5*/
+  .google-effect li:nth-child(5){
+    font-size: 20vh;
+    color:rgba(225,255,255,.1);
+    background: url(../img/wave5.png);
+    -webkit-background-clip: text;
+    background-position: 50px 120px;
+    animation: animate 15s linear infinite;
+  }
+  /* Letter 6*/
+  .google-effect li:nth-child(6){
+    font-size: 20vh;
+    color:rgba(225,255,255,.1);
+    background: url(../img/wave2.png);
+    -webkit-background-clip: text;
+    background-position: 50px 120px;
+    animation: animate 15s linear infinite;
+  }
+  
+  @keyframes animate{
+	0%{
+		background-position: left 0px top 80px;
+	}
+	40%{
+		background-position: left 800px top -40px;
+	}
+}
+
+.copyright{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.copyright h3{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
